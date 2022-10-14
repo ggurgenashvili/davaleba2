@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:content=".MainActivity">
+
+    <EditText
+        android:text="პირველი რიცხვი:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="15dp"
+        android:gravity="end"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:id="@+id/firstnum"
+        android:inputType="number">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/secondnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="15dp"
+        android:autofillHints=""
+        android:gravity="end"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:text="მეორე რიცხვი:"
+        android:textColor="#000"
+        android:inputType="number">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="25"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sumbutton"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:text="+"
+
+            android:textColor="#F3F3F4"
+            android:textSize="40dp"></Button>
+
+        <Button
+            android:id="@+id/subbutton"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:text="-"
+            android:textColor="#F3F3F4"
+            android:textSize="40dp"></Button>
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:text="*"
+            android:textColor="#F3F3F4"
+            android:textSize="40dp"></Button>
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:text="/"
+            android:textColor="#F3F3F4"
+            android:textSize="40dp"></Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
