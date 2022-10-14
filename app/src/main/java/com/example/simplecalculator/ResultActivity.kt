@@ -5,8 +5,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
 
-class ResultActivity : AppCompatActivity(){
-
+class ResultActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +14,11 @@ class ResultActivity : AppCompatActivity(){
         init()
 
     }
-    private fun init(){
+
+    private fun init() {
         val textView
-        textView.setOnClickListener{
+        textView.setOnClickListener {
         }
+    }
+
+}
